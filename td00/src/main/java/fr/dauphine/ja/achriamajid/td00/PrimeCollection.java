@@ -31,6 +31,13 @@ public class PrimeCollection
         }
         return true;
     }
+    public static boolean isPrimetest(int p) {
+    	for(int i=2; i<=p/2; i++)
+        {
+           if(p%i==0) return false;
+        }
+        return true;
+    }
     public void printPrimes(){
     	for (Integer e:this.numbers) {
     		if(isPrime(e))
