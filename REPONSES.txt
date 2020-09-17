@@ -1,4 +1,3 @@
-Modif
 Exo 1
 3.ACHRIA
 4.mvn -version
@@ -94,5 +93,4 @@ index 1886e0d..f10123d 100644
 
 EXO 2
 3.remotes/origin/master
-4.
-
+4.Conflit tete
