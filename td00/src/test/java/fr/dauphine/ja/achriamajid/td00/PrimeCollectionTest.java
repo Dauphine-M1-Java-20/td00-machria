@@ -40,7 +40,7 @@ public class PrimeCollectionTest
     }
     
     public void test0IsPrime() {
-    	assertTrue(PrimeCollection.isPrimetest(0));
+    	assertFalse(PrimeCollection.isPrimetest(0));
     }
     public void testTwoIsPrime() {
     	assertTrue(PrimeCollection.isPrimetest(2));

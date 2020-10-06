@@ -25,6 +25,8 @@ public class PrimeCollection
     	}
     }
     private boolean isPrime(int p) {
+    	if(p<=0)
+    		return false;
     	for(int i=2; i<=p/2; i++)
         {
            if(p%i==0) return false;
