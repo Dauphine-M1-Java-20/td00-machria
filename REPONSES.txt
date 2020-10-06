@@ -103,5 +103,5 @@ Au début du fichier c'est-a-dire la modification du début du fichier. On a mem
 7. Je pense que ça n'aurait pas marcher car il manquerait le hash SHA-1 du commit qui l'a modifié
 
 Exo 3
-2. Avec True le test est en success et avec False le test est en faillure. C'est cette argument qui choisi si le test est en erreur ou pas
+2. Avec True le test est en success et avec False le test est en faillure. C'est cette argument qui choisi si le test est en erreur ou pas. Le assertTrue teste si l'expression booléenne est égale à True.
 3.
