@@ -20,8 +20,7 @@ no main manifest attribute, in target/td00-1.0-SNAPSHOT.jar
 java -jar target/td00-1.0-SNAPSHOT.jar
 
 Exo 3
-2. Git add td00/pom.xml
-Git add td00/src
+
 3.System.out.println();
 4.@Override
 		public String toString() {
@@ -45,8 +44,14 @@ private void toStr() {
 Raccourci à la création des getter et setters
 7.Rename de la classe pour le nom à coté du public class et du champs pour toto partout où il est référencé. 
 
+8. Cela ouvre la classe String
+
 TP 00bis
 Exo 1
+2. Git add td00/pom.xml
+Git add td00/src
+Git add REPONSES.txt
+Git commit -m "first commit"
 5.
 diff --git a/td00/src/main/java/fr/dauphine/ja/achriamajid/td00/PrimeCollection.java b/td00/src/main/java/fr/dauphine/ja/achriamajid/td00/PrimeCollection.java
 index f10123d..1886e0d 100644
@@ -104,4 +109,3 @@ Au début du fichier c'est-a-dire la modification du début du fichier. On a mem
 
 Exo 3
 2. Avec True le test est en success et avec False le test est en faillure. C'est cette argument qui choisi si le test est en erreur ou pas. Le assertTrue teste si l'expression booléenne est égale à True.
-3.
